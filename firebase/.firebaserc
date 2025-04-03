@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "vrlab2-abcab"
+  },
+  "hosting": {
+    "public": "public", 
+    "rewrites": [],
+    "headers": [
+      {
+        "source": "/**/*.gltf",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  }
+
+}
+
